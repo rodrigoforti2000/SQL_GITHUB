@@ -1,4 +1,4 @@
-
+-- Vendedores que não venderam de dezembro de 2017
 
 SELECT  
         max(CASE WHEN t1.order_status = 'delivered'
